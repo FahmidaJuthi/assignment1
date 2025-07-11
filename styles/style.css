@@ -17,9 +17,16 @@ li{
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 .paragraph_text{
     color:rgba(37, 36, 50, 0.5);
-    padding:23px 0;
+    
 }
 .button-primary{
     /*background:#4E47FF;*/
@@ -90,7 +97,10 @@ main{
     width:400px;
     text-align:justify;
 }
-.see_title{
+.see_left p{
+    padding:23px 0;
+}
+.text_title{
     color:#252432;
 }
 .see_img{
@@ -98,4 +108,55 @@ main{
     height:auto;
     border:none;
     border-radius: 48px;
+}
+
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding:100px 50px;
+    border-radius: 24px;
+}
+.user_divs{
+    display: flex;
+    justify-content: space-between;
+    padding-top:40px;
+}
+.user_title{
+    font-size:55px;
+    color:#7a4ec2;
+}
+
+
+.what_say h3{
+    text-align:center;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+   
+}
+.cart_items{
+    background:#fff;
+    margin:20px;
+    padding:24px;
+    border-radius: 14px;
+    border:1px solid rgba(242, 237, 237, 1)
+}
+.cart_title{
+    padding:20px 0;
+    font-weight:bold;
+    font-size:18px;
+}
+.client{
+    padding:20px 0;
+    display: flex;
+    color:rgba(37, 36, 50, 0.5);
+}
+.cl_img img{
+    border-radius: 50%;
+    margin-right:20px;
+    width:50px;
+    height:auto;
 }
