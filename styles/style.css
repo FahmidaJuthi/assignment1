@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color:none;
 }
-li{
+ul li{
     text-decoration: none;
 }
 .raleway{
@@ -61,7 +61,7 @@ header{
 }
 /*navbar style*/
 nav{
-    max-width:1160px;
+    max-width:1100px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +89,7 @@ section{
 
 /* ---main style---*/
 main{
-    max-width:1160px;
+    max-width:1100px;
     margin:0 auto;
 }
 
@@ -184,4 +184,26 @@ main{
 .get_in{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.get_title{
+    font-size:60px;
+}
+.get_form input,textarea,button{
+    display:block;
+    padding:10px 20px;
+    width:300px;
+    border:1px solid #D6DDED;
+    border-radius: 10px;
+    background:#fff;
+    margin:10px 0;
+}
+.get_form button{
+    width:100%;
+}
+
+/*---Footer style--*/
+footer{
+    background:#fff;
+    align-items: center;
 }
