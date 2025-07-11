@@ -17,7 +17,10 @@ li{
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.paragraph_text{
+    color:rgba(37, 36, 50, 0.5);
+    padding:23px 0;
+}
 .button-primary{
     /*background:#4E47FF;*/
     background: linear-gradient(135deg, #c38be7, #8a6be0);
@@ -67,10 +70,32 @@ nav{
     font-weight: bold;
     padding-bottom:40px;
 }
-
+section{
+    
+    margin:120px 0;
+}
 
 /* ---main style---*/
 main{
     max-width:1160px;
     margin:0 auto;
+}
+
+.see_it{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see_left{
+    width:400px;
+    text-align:justify;
+}
+.see_title{
+    color:#252432;
+}
+.see_img{
+    width:300px;
+    height:auto;
+    border:none;
+    border-radius: 48px;
 }
