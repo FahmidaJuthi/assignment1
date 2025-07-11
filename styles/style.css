@@ -26,7 +26,7 @@ ul li{
 }
 .paragraph_text{
     color:rgba(37, 36, 50, 0.5);
-    padding:24px 0;
+    padding:20px 0;
     
 }
 .paragraph_text2{
@@ -36,7 +36,7 @@ ul li{
 .button-primary{
     /*background:#4E47FF;*/
     background: linear-gradient(135deg, #c38be7, #8a6be0);
-
+    text-align:center;
     padding:12px 36px;
     font-weight:bold;
     font-size:16px;
@@ -107,6 +107,8 @@ main{
 }
 .text_title{
     color:#252432;
+    font-size: 30px;
+    font-weight:bold;
 }
 .see_img{
     width:300px;
@@ -119,7 +121,7 @@ main{
 .user{
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
-    padding:100px 50px;
+    padding:70px 150px;
     border-radius: 24px;
 }
 .user_divs{
@@ -172,6 +174,7 @@ main{
     background:#fff;
     text-align:center;
     padding:150px 70px;
+    border-radius: 14px;
 }
 .ready_title{
     font-size:28px;
@@ -185,11 +188,12 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 .get_title{
     font-size:60px;
 }
-.get_form input,textarea,button{
+.get_form input,textarea{
     display:block;
     padding:10px 20px;
     width:300px;
@@ -206,4 +210,25 @@ main{
 footer{
     background:#fff;
     align-items: center;
+    text-align: center;
+    padding:50px;
+    border-top:1px solid rgba(0, 0, 0, 0.1);
+    font-size:14px;
+   
+}
+.footer_inner{
+    width:500px;
+    margin:auto;
+    align-items: center;
+}
+.foot_nav ul{
+    display: flex;
+    margin:auto;
+}
+.foot_nav ul li{
+    display: inline;
+}
+.foot_nav ul li a{
+    padding:0px 10px;
+    color:rgba(37, 36, 50, 0.7);
 }
