@@ -26,6 +26,11 @@ li{
 }
 .paragraph_text{
     color:rgba(37, 36, 50, 0.5);
+    padding:24px 0;
+    
+}
+.paragraph_text2{
+    color:rgba(37, 36, 50, 0.5);
     
 }
 .button-primary{
@@ -110,6 +115,7 @@ main{
     border-radius: 48px;
 }
 
+
 .user{
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
@@ -159,4 +165,23 @@ main{
     margin-right:20px;
     width:50px;
     height:auto;
+}
+
+/*ready to focus*/
+.ready{
+    background:#fff;
+    text-align:center;
+    padding:150px 70px;
+}
+.ready_title{
+    font-size:28px;
+}
+.ready img{
+    border-radius: 48px;
+}
+
+/*---get in ---*/
+.get_in{
+    display: flex;
+    justify-content: space-between;
 }
